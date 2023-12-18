@@ -577,6 +577,7 @@ html {
   flex-wrap: wrap;
   margin-top: 10rem;
   padding-bottom: 10rem;
+  z-index: 100;
 
 
 
@@ -597,12 +598,72 @@ html {
   width: 36rem;
   height: 20rem;
   background-color: #fff;
+  overflow: hidden;
+  border-radius: 1rem;
 
 
 }
 .project-img img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 1.5s;
+}
+
+.project-img img:hover{
+  transform: scale(1.3);
+
+}
+.techs{
+  margin-top: -3rem;
+}
+
+.techs span {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #29a587;
+  letter-spacing: .1rem;
+
+}
+.project-name{
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  margin-top: -2rem;
+}
+.project-desc{
+  font-family: "Caveat", cursive;
+  font-size: 2.2rem;
+  color: #ccc;
+
+}
+.project-btn{
+  width: 20rem;
+  height: 4rem;
+  background-color: transparent;
+  font-size: 1.8rem;
+  text-align: left;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.project-btn i{
+  color: #29a587;
+  margin-left: 1rem;
+  transition: margin-left 0.3s;
+}
+
+.project-btn i:hover{
+  margin-left: 2rem;
+
+}
+.projects .btn{
+  margin: 5rem 0 0 0;
+
+
 }
 .projects .section-border{
   height: 140rem;
