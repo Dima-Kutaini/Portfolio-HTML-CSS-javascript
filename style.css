@@ -817,7 +817,7 @@ color: #777;
  }
 
  .contact-btn{
-  /* width:calc(100% -3rem) ; */
+  width:calc(100% -3rem) ;
   width: 100%;
   height: 5rem;
   background-color: #29a587;
@@ -829,10 +829,10 @@ color: #777;
   font-weight: 300;
   letter-spacing: .2rem;
   cursor: pointer;
-  margin-top: 15rem;
-  display: flex;
-align-items: center;
-justify-content: center;
+   margin-top: 5rem;
+ 
+
+
  }
 
 /* End of contact  */
@@ -850,8 +850,8 @@ justify-content: center;
   align-items: center;
  
 }
-.icons i{
-  font-size: 2rem;
+.icons i {
+  font-size: 2.5rem;
   color: #fff;
   margin-right: 2rem;
   text-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.3);
