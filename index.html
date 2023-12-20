@@ -402,7 +402,7 @@
           </div>
 
           <div class="contact-right">
-            <form>
+            <form id="contactForm">
               <div class="input-groups">
                 <div class="input-group">
                   <label for="name"
@@ -432,8 +432,8 @@
                 <textarea></textarea>
               </div>
               <button
-                type="button"
-                class="contact-btn">
+                type="submit"
+                class="contact-btn" onclick="submitForm()">
                 Send Message
               </button>
             </form>
@@ -462,7 +462,7 @@
           <p>&copy; Web <span> Dev</span> All Rights Reserved.2023</p>
         </div>
         <div class="author">
-          <p>Mede by<span>Dima Kutaioni</span></p>
+          <p>Made by<span>Dima Kutaioni</span></p>
         </div>
       </footer>
 
@@ -470,6 +470,6 @@
     </div>
     <!-- End of container -->
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
