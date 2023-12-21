@@ -222,7 +222,7 @@ html {
 
 .about {
   width: 60rem;
-  font-family: 'Caveat', cursive;
+  font-family: Avenir;
   font-size: 2.5rem;
   line-height: 1;
   color: #a9abae;
@@ -293,14 +293,14 @@ html {
 .dev-img-wrapper {
   width: 60rem;
   height:60rem;
-  background-color: #29a587;
+  background-color: #b6bcba;
   border-radius: 50%;
   padding: 2rem 2rem 0.2rem;
   box-shadow: 0.1rem 1rem rgb(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .dev-img-wrapper img {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 .dev-work {
@@ -411,8 +411,8 @@ html {
 }
 
 .skills-card p{
-  font-family:"Caveat", cursive; 
-  font-size: 2rem;
+  font-family:Avenir; 
+  font-size: 1.5rem;
   color: #bbb;
   margin-bottom: 4rem;
 }
@@ -636,7 +636,7 @@ html {
   margin-top: -2rem;
 }
 .project-desc{
-  font-family: "Caveat", cursive;
+  font-family: Avenir;
   font-size: 2.2rem;
   color: #ccc;
 
@@ -764,8 +764,8 @@ position: relative;
 
 .contact-info span:nth-child(2){
 font-size: 1.6rem;
-font-weight: 300;
-color: #777;
+font-weight:  300 bold;
+color:#defdf5;
 
 }
 
