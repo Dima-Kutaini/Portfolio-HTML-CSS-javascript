@@ -324,6 +324,7 @@ html {
   right: 40rem;
 }
 .dev-projects {
+ 
   bottom: 1rem;
   right: -2rem;
 }
@@ -335,6 +336,10 @@ html {
 .dev-work span:nth-child(2) {
   color: #29a587;
   width: 50%;
+}
+#btn-1{
+ height: 8rem;
+ width: 22rem;
 }
 /* End of landing  */
 
